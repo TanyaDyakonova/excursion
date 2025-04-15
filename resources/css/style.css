@@ -1,17 +1,20 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    background-color: #fff;
+    background-color: #000; /* черный фон */
+    color: #fff;            /* белый текст */
     padding: 20px;
   }
   
   h1 {
+    color: #3d8049;
     font-size: 2em;
     margin-bottom: 20px;
   }
   
   h2 {
     font-size: 1.5em;
+    color: rgb(74, 125, 84);
     margin-top: 40px;
     margin-bottom: 10px;
   }
@@ -24,18 +27,44 @@ body {
     display: inline-block;
     margin-bottom: 30px;
     font-size: 1.1em;
-    color: #0077cc;
+    color: #3d8049;
     text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
   }
   
   video {
     width: 100%;
     max-width: 600px;
     border-radius: 10px;
+    margin: 20px 0;
   }
   
-  img {
-    width: 200px;
-    max-width: 80%;
+  /* Основное изображение (пейзаж) */
+  .landscape-img {
+    width: 90%;
+    max-width: 800px;
+    border-radius: 10px;
+  }
+  
+  /* Иконка телефона */
+  .icon-img {
+    width: 60px;
+    height: auto;
+    margin-top: 10px;
+  }
+  
+  footer {
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #111;
+    border-top: 1px solid #333;
+  }
+  
+  footer p {
+    font-size: 1em;
+    color: #aaa;
   }
   
